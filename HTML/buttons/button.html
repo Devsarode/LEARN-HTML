@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Example</title>
+</head>
+<body>
+    <form action="http:www.youtube.com/results">
+        <label for="username">name</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your name"><br><br>
+        <!-- right way -->
+        <button type="button" onclick="alert('Button clicked!')">button</button>
+        <button type="submit" onclick="alert('Button clicked!')">submit</button>
+        <button type="reset" onclick="alert('Button clicked!')">reset</button>
+        <button>submit</button><br><br>
+<!-- not advised -->
+       <input type="submit" value="Submit Button"> <br>
+       <input type="button" value="Button">
+    </form>
+    <hr>
+    <form action="http://www.youtube.com/results">
+        
+        <input type="text" id="username" name="search_query" placeholder="Enter your name"><br><br>
+        <input type="submit" value="Submit Button">
+    </form>
+</body>
+</html>
